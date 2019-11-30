@@ -1,6 +1,7 @@
 <import src="../../templates/copyright.wxml" />
 <import src="../../templates/login-popup.wxml" />
 
+<image src="https://www.ozil.vip/wp-content/uploads/2019/11/3.jpg" alt="" style="width:100%" wx:if="{{!isopenmypage}}"/>
 <view class="topic-list clearfix" wx:if="{{isopenmypage}}">
   <block wx:key="id" wx:for="{{categoriesList}}">
     <view class="list-item">

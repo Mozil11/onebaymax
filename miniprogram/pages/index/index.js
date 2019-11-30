@@ -176,7 +176,7 @@ Page({
         });
       }
     }).catch(function (response) {
-      console.log(response);
+      // console.log(response);
       self.setData({
         showerror: "block",
         floatDisplay: "none"
@@ -186,7 +186,7 @@ Page({
 
   //获取文章列表数据
   fetchPostsData: function (data) {
-    console.log(data)
+    // console.log(data)
     var self = this;
     if (!data) data = {};
     if (!data.page) data.page = 1;
@@ -234,7 +234,7 @@ Page({
                     
                     
                     var postid = item.id
-                    console.log(postid)
+                    // console.log(postid)
                   
                     if (item.category_name != null) {
     
@@ -356,7 +356,7 @@ Page({
   },
   // 跳转至查看小程序列表页面或文章详情页
   redictAppDetail: function (e) {
-    console.log(e)
+    // console.log(e)
     // console.log('查看文章');
     var id = e.currentTarget.id;
     var redicttype = e.currentTarget.dataset.redicttype;
@@ -429,7 +429,7 @@ Page({
         action:'isOpenpage'
       }
     }).then(res=>{
-      console.log(res)
+      // console.log(res)
       self.setData({
         isopenmypage:res.result.data[0].isopen
       })

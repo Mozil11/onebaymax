@@ -1,5 +1,5 @@
 # 小程序体验：
-![小程序one大白](https://www.ozil.vip/wp-content/uploads/2019/11/gh_ad55e95d6fed_344.jpg)
+![小程序one大白](./gh_ad55e95d6fed_344.jpg)
 
 # 开发简介
 小程序原生框架开发，配合小程序云开发后台和wordpress插件REST API TO MiniProgram，完成以下功能
@@ -49,13 +49,13 @@
 本小程序完整使用需要配合wordpress插件REST API TO MiniProgram，才能完整使用，插件下载地址： https://github.com/iamxjb/rest-api-to-miniprogram 免费版就可以
 
 # 技术支持微信号 
-![](https://www.ozil.vip/wp-content/uploads/2019/11/a-e1575096758313.png)
+![](./a.png)
 
 
 ## 如果本程序对你有所帮助，请不吝在github上Star
 ## 喜欢的话希望打赏以下，感谢您的支持
 
-![](https://www.ozil.vip/wp-content/uploads/2019/11/01pay-e1575096811899.jpeg)
+![](./01pay.jpeg)
 
 # 云开发 quickstart
 
