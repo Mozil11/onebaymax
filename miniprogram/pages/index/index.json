@@ -1,0 +1,9 @@
+{"enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "one大白",
+        "navigationBarTextStyle": "black",
+"usingComponents":{
+    "common-list":"../componet/commonlist/common-list",
+    "weather": "plugin://weather/weather"
+}
+}

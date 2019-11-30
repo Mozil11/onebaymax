@@ -1,0 +1,4 @@
+{"navigationBarTitleText": "文章排行","enablePullDownRefresh": true,
+    "usingComponents":{
+        "list":"./list/list"
+    }}

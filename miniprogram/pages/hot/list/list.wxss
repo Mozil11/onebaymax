@@ -1,0 +1,60 @@
+/* templates/components/commonlist/common-list.wxss */
+.post-list {
+    margin-bottom: 24rpx;
+  }
+  
+  .post-item {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 24rpx 0;
+    overflow: hidden;
+  }
+  
+  .post-img {
+    width: 200rpx;
+    height: 160rpx;
+    border-radius: 6rpx;
+  }
+  
+  .post-desc {
+    flex: 1;
+    margin-left: 24rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .post-title {
+    height: 80rpx;
+    margin-bottom: 20rpx;
+  }
+  
+  .post-title>text {
+    font-size: 30rpx;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #333;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .post-data {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-data>image {
+    width: 24rpx;
+    height: 24rpx;
+    margin-right: 6rpx;
+  }
+  
+  .post-data>text {
+    color: #c4c4c4;
+    margin-right: 32rpx;
+    font-size: 20rpx;
+  }

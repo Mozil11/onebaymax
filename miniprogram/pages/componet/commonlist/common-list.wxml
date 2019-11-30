@@ -1,0 +1,27 @@
+<!--templates/components/commonlist/common-list.wxml-->
+<view>
+  
+    
+    <view class="list-item-ad" index="{{index}}" wx:if="{{index%item.listAdEvery ==0  && index!=0 && item.listAd =='1' && item.listAdId !=''  && listAdsuccess}}">
+        <ad unit-id="{{item.listAdId}}" ad-intervals="30" binderror="listAdbinderror"></ad>
+      </view>
+      <view class="post-item" index="{{index}}" id="{{item.id}}" bindtap="redictDetail">
+        <image src="{{item.post_medium_image}}" mode="aspectFill" class="post-img"></image>
+        <view class="post-desc">
+          <view class="post-title">
+            <text>{{item.title.rendered}}</text>
+          </view>
+          <view class="post-data">
+            <image src="../../../images/calendar.png"></image>
+            <text>{{item.date}}</text>
+            <image src="../../../images/comments.png"></image>
+            <text class="">{{commentcout}}</text>
+            <image src="../../../images/home-like.png"></image>
+            <text class="">{{count}}</text>
+            <image src="../../../images/pageviews.png"></image>
+            <text class="">{{item.pageviews}}</text>
+          </view>
+        </view>
+      </view>
+  
+</view>
