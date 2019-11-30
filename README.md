@@ -71,7 +71,7 @@
 
 2.本程序有关es6-promise 部分代码参考 开源程序：https://github.com/cinoliu/-es6-promise
 
-3.本程序借鉴部分https://github.com/iamxjb/winxin-app-watch-life.net 守望轩的页面
+3.小程序在https://github.com/iamxjb/winxin-app-watch-life.net 守望轩基础上开发
 
 
 在此对上述提供开源及创意表示致谢。
