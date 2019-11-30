@@ -49,12 +49,12 @@
 本小程序完整使用需要配合wordpress插件REST API TO MiniProgram，才能完整使用，插件下载地址： https://github.com/iamxjb/rest-api-to-miniprogram 免费版就可以
 
 # 技术支持微信号 
-<img src='https://www.ozil.vip/wp-content/uploads/2019/11/a.png' width='300'/>
+<img src='https://www.ozil.vip/wp-content/uploads/2019/11/a.png' width='300' height=300/>
 
 
 ## 如果本程序对你有所帮助，请不吝在github上Star
 ## 喜欢的话希望打赏以下，感谢您的支持
-<img src='https://www.ozil.vip/wp-content/uploads/2019/11/01pay.jpeg' width='500'/>
+<img src='https://www.ozil.vip/wp-content/uploads/2019/11/01pay.jpeg' width='300' height='500'/>
 
 
 # 云开发 quickstart
