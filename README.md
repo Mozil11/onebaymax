@@ -53,7 +53,8 @@
 
 ## 如果本程序对你有所帮助，请不吝在github上Star
 ## 喜欢的话希望打赏以下，感谢您的支持
-![打赏](https://github.com/Mozil11/onebaymax/blob/master/miniprogram/images/01pay_gaitubao_800x800.jpg)
+<img src='https://github.com/Mozil11/onebaymax/blob/master/miniprogram/images/01pay_gaitubao_800x800.jpg' width='500'/>
+
 
 # 云开发 quickstart
 
