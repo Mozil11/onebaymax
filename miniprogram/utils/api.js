@@ -39,7 +39,7 @@ module.exports = {
   
   //获取首页滑动文章
   getSwiperPosts: function () {
-      var url = HOST_URI;
+      var url = HOST_URI_WATCH_LIFE_JSON;
       url +='posts/';
       return url;
   },

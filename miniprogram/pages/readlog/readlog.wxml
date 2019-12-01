@@ -36,7 +36,7 @@
 </view>
 
 <!-- 文章列表 -->
-<view class="list_container" wx:if="{{isopenmypage}}">
+<view class="list_container">
 
   <block wx:key="id" wx:for="{{readLogs}}">
     <view class="list-item" index="{{index}}" id="{{item[0]}}" data-itemtype="{{item[2]}}" catchtap="redictDetail">
