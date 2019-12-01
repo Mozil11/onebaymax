@@ -122,7 +122,8 @@ font-weight: 500;
 
 .common-subtitle-right {
   font-size: 26rpx;
-  font-weight: 400;
+
+  font-weight: 300;
   color: #959595;
   margin-right: 6rpx;
 }
@@ -153,6 +154,7 @@ font-weight: 500;
 
 .selected-nav-item text {
   line-height: 26rpx;
+  font-weight: 300;
   font-size: 26rpx;
   color: #333;
 }
@@ -224,7 +226,7 @@ font-weight: 500;
  }
  .txt{
    display: inline-block;
-   margin: 40rpx 40rpx 40rpx 40rpx;
+   margin: 30rpx 30rpx 30rpx 30rpx;
    font-weight: 300;
    color: rgba(88, 88, 88, 1);
  }

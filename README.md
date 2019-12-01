@@ -48,7 +48,7 @@
 
 本小程序完整使用需要配合wordpress插件REST API TO MiniProgram，才能完整使用，插件下载地址： https://github.com/iamxjb/rest-api-to-miniprogram 免费版就可以
 
-# 技术支持微信号 
+# 技术支持微信号，如若商用也请与本人商议
 ![](./a.png)
 
 

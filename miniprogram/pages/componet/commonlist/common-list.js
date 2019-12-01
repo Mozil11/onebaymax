@@ -38,7 +38,7 @@ Component({
       name:'commentList',
       data:data
     }).then(res=>{
-      console.log(res)
+      // console.log(res)
       this.setData({
         commentcout:res.result
       })

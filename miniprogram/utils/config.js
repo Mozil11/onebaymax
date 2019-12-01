@@ -24,7 +24,7 @@ var DOWNLOADFILEDOMAIN = [
  //'appid' 当redirecttype为miniapp时，这个值为其他微信小程序的appid，如果redirecttype为apppage，webpage时，这个值设置为空。
  //'extraData'当redirecttype为miniapp时，这个值为提交到其他微信小程序的参数，如果redirecttype为apppage，webpage时，这个值设置为空。
 var INDEXNAV = [
-  // { id: '1', name: '微慕', image: '../../images/uploads/minapper.jpg', url: 'pages/index/index', redirecttype: 'miniapp', appid: 'wx074a216a7aabc30c', extraData: '' },
+  { id: '1', name: 'flutter', image: "https://www.ozil.vip/wp-content/uploads/2019/12/88035f3893d87642de0de074baa72340.png", url: '../list/list?categoryID=8', redirecttype: 'apppage', appid: '', extraData: '' },
   { id: '2', name: 'wordpress', image: '../../images/uploads/minapper-plus.jpg', url: '../list/list?categoryID=2', redirecttype: 'apppage', appid: '', extraData: ''},
   { id: '3', name: '前端', image: 'https://ozil.vip/images/html.jpg', url: '../list/list?categoryID=5', redirecttype: 'apppage', appid: '', extraData: '' },
   { id: '4', name: '搜索', image: '../../images/uploads/search.jpg', url: '../search/search', redirecttype: 'apppage', appid: '', extraData: '' },
