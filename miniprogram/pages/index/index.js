@@ -110,7 +110,6 @@ Page({
   onLoad: function (options) {
     // this.onGetOpenid();
     var self = this;
-    self.isOpenpage()
     self.fetchTopFivePosts();
     self.fetchPostsData(self.data);
     self.setData({
@@ -421,22 +420,7 @@ Page({
     }
 
   },
-  isOpenpage: function(){
-    var self = this;
-    wx.cloud.callFunction({
-      name:'likeList',
-      data:{
-        action:'isOpenpage'
-      }
-    }).then(res=>{
-      // console.log(res)
-      self.setData({
-        isopenmypage:res.result.data[0].isopen
-      })
-    }).catch(e=>{
-      console.log(e)
-    })
-  },
+  
   handleChange: function(e) {
     
     this.setData({

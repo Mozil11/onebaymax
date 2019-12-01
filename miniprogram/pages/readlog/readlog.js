@@ -47,24 +47,8 @@ Page({
     self.fetchPostsData('1');
     Auth.setUserInfoData(self); 
     Auth.checkLogin(self);
-    this.isOpenpage()
   },
-  isOpenpage: function(){
-    var self = this;
-    wx.cloud.callFunction({
-      name:'likeList',
-      data:{
-        action:'isOpenpage'
-      }
-    }).then(res=>{
-      console.log(res)
-      self.setData({
-        isopenmypage:res.result.data[0].isopen
-      })
-    }).catch(e=>{
-      console.log(e)
-    })
-  },
+
   onReady: function () {
     var self = this;   
     Auth.checkSession(self,'isLoginNow');

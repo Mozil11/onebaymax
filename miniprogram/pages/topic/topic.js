@@ -26,26 +26,10 @@ Page({
         wx.setNavigationBarTitle({
             title: '专题'
         });
-        this.isOpenpage()
         this.fetchCategoriesData();
         
     },
-    isOpenpage: function(){
-        var self = this;
-        wx.cloud.callFunction({
-          name:'likeList',
-          data:{
-            action:'isOpenpage'
-          }
-        }).then(res=>{
-          console.log(res)
-          self.setData({
-            isopenmypage:res.result.data[0].isopen
-          })
-        }).catch(e=>{
-          console.log(e)
-        })
-      },
+    
     onShow:function(){            
 
     },

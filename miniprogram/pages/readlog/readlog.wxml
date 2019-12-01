@@ -27,7 +27,7 @@
 </view>
 
 <!-- tab选项卡 -->
-<view class="tab-bar" wx:if="{{isopenmypage}}">
+<view class="tab-bar">
   <block wx:for="{{topBarItems}}" wx:key="id">
     <view class="tab-item {{item.selected ? 'tab-Selected': '' }}" catchtap="onTapTag" id="{{item.id}}">
       <text>{{item.name}}</text>

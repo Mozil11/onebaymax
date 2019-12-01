@@ -10,14 +10,9 @@
   <view>点击加入我的小程序 ↑</view>
   <text>了解"{{webSiteName}}"最新文章</text>
 </view>
-<image wx:if="{{!isopenmypage}}"
-  src="https://www.ozil.vip/wp-content/uploads/2019/11/1.jpg"
-  mode="scaleToFill"
-  style="width:100%"
-  lazy-load="false">
-</image>
+
 <!-- 轮播图 -->
-<view style="display:{{displaySwiper}}; margin-top: 20rpx;" wx:if="{{isopenmypage}}">
+<view style="display:{{displaySwiper}}; margin-top: 20rpx;" >
   <swiper bindchange="handleChange" indicator-dots="true" interval="10000" autoplay="true" indicator-color="rgba(0, 0, 0, .1)" indicator-active-color="rgba(0, 0, 0, .6)" previous-margin='40rpx' next-margin='40rpx' circular>
     <block wx:key="id" wx:for="{{postsShowSwiperList}}">
       <swiper-item id="{{item.id}}"  index="{{index}}" data-redicttype="{{item.type}}" data-appid="{{item.appid}}" data-url="{{item.url}}" bindtap="redictAppDetail">
@@ -31,7 +26,7 @@
   </swiper>
 </view>
 
-<view style="display:{{showallDisplay}}" wx:if="{{isopenmypage}}">
+<view style="display:{{showallDisplay}}" >
   <!-- 图标导航和搜索 -->
   <view style="display:{{floatDisplay}}">
     <!-- 图标导航 -->
@@ -98,7 +93,7 @@
 
   </view>
   <!-- 文章列表 -->
-  <view class="container" wx:if="{{isopenmypage}}">
+  <view class="container">
     <!-- 列表componet-->
     <view class="post-list">
       <block wx:key="id" wx:for="{{postsList}}">
