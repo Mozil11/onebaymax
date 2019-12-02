@@ -1,5 +1,5 @@
 # 小程序体验：
-![小程序one大白](./gh_2b2ac9365def_344.jpg)
+![小程序ow大白](./gh_2b2ac9365def_344.jpg)
 
 # 开发简介
 小程序原生框架开发，配合小程序云开发后台和wordpress插件REST API TO MiniProgram，完成以下功能
